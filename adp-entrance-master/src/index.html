@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quiz App</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Start page content -->
+        <div id="start-page">
+            <div class="card text-center mt-5">
+                <div class="card-header">
+                    <div class="text-center title">Start</div>
+                </div>
+                <div class="card-body p-5">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div id="quiz1" class="btn btn-block btn-primary my-4">
+                                <span class="btn-quiz-start">QUIZ I</span>
+                                <p class="quiz1"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div id="quiz2" class="btn btn-block btn-primary my-4">
+                                <span class="btn-quiz-start">QUIZ II</span>
+                                <p class="quiz2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Questions page content -->
+        <div id="quiz-page">
+            <div id="score"></div>
+            <div id="questions"></div>
+        </div>
+
+        <!-- Result page content -->
+        <div id="result-page">
+            <div class="card text-center mt-5">
+                <div class="card-header">
+                    <div class="text-center title">Score</div>
+                </div>
+                <div class="card-body p-5">
+                    <div id="result"></div>
+                    <a href="" onclick="location.reload();">RESTART THE QUIZ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

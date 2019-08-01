@@ -1,0 +1,36 @@
+*{
+    border-radius: 0 !important;
+}
+
+.btn{
+    cursor: pointer;
+}
+.title{
+    font-size: 102px;
+    font-weight: 700;
+    margin: 30px auto;
+}
+.sub-title{
+    font-size: 42px;
+    font-weight: 300;
+    margin: 30px auto;
+}
+
+.btn-quiz-start{
+    padding: 40px 80px;
+    font-size: 38px;
+}
+
+.answer{
+    border: 2px solid #333;
+    padding: 30px;
+    font-size: 22px;
+}
+
+.ans{
+    cursor: pointer;
+}
+.ans:hover{
+    background: rgb(217, 217, 217);
+    padding: 0px;
+}
